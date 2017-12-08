@@ -6,8 +6,8 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === '!Teste') {
-    	message.reply(':v');
+    if (message.content === ':v') {
+    	message.reply('v:');
   	}
 });
 
